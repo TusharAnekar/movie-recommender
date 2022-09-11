@@ -69,9 +69,9 @@ export default function App() {
 
       <footer>
       <h3>Connect with me here:</h3>
-        <a class="footer-links" href="https://www.linkedin.com/in/tushar-anekar-435033a9/" target="_blank" rel="noopener norefferrer">LinkedIn</a>
-        <a class="footer-links" href="https://twitter.com/TusharAnekar" target="_blank" rel="noopener norefferrer">Twitter</a>
-        <a class="footer-links" href="https://github.com/TusharAnekar" target="_blank" rel="noopener norefferrer">GitHub</a>
+        <a class="footer-links" href="https://www.linkedin.com/in/tushar-anekar-435033a9/" target="_blank" rel="norefferrer">LinkedIn</a>
+        <a class="footer-links" href="https://twitter.com/TusharAnekar" target="_blank" rel="norefferrer">Twitter</a>
+        <a class="footer-links" href="https://github.com/TusharAnekar" target="_blank" rel="norefferrer">GitHub</a>
       </footer>
 
     </div>

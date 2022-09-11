@@ -6,19 +6,22 @@ const moviesDB = {
   drama: [
     { name: "Dil Chahta Hai", rating: "4.5/5" },
     { name: "The Kashmir Files", rating: "3/5" },
-    { name: "Kabir Singh", rating: "4/5" }
+    { name: "Kabir Singh", rating: "4/5" },
+    { name: "Chak De! India", rating: "4.5/5" },
   ],
 
   action: [
     { name: "Top Gun: Maverick", rating: "5/5" },
     { name: "Parmanu: The Story of Pokhran", rating: "3/5" },
-    { name: "Captain America: Civil War", rating: "4/5" }
+    { name: "Captain America: Civil War", rating: "4/5" },
+    { name: "Mission: Impossible - Fallout", rating: "4.5/5" }
   ],
 
   comedy: [
     { name: "Kung Fu Panda", rating: "5/5" },
     { name: "Lukka Chuppi", rating: "3.5/5" },
-    { name: "Tanu Weds Manu", rating: "4/5" }
+    { name: "Tanu Weds Manu", rating: "4/5" },
+    { name: "Hera Pheri", rating: "5/5" }
   ]
 };
 
@@ -41,7 +44,7 @@ export default function App() {
         ))}
       </div>
 
-      <div style={{ textAlign: "left" }}>
+      <div style={{ textAlign: "center" }}>
         <ul style={{ paddingInlineStart: "0" }}>
           {moviesDB[selectedGenre].map((movie) => (
             <li
@@ -50,9 +53,10 @@ export default function App() {
                 listStyle: "none",
                 padding: "1rem",
                 border: "1px solid #D1D5DB",
-                width: "70%",
-                margin: "1rem 0rem",
-                borderRadius: "0.5rem"
+                width: "50%",
+                margin: "1rem auto",
+                borderRadius: "0.5rem",
+                color: "white"
               }}
             >
               {" "}
@@ -62,6 +66,14 @@ export default function App() {
           ))}
         </ul>
       </div>
+
+      <footer>
+      <h3>Connect with me here:</h3>
+        <a class="footer-links" href="https://www.linkedin.com/in/tushar-anekar-435033a9/" target="_blank" rel="noopener norefferrer">LinkedIn</a>
+        <a class="footer-links" href="https://twitter.com/TusharAnekar" target="_blank" rel="noopener norefferrer">Twitter</a>
+        <a class="footer-links" href="https://github.com/TusharAnekar" target="_blank" rel="noopener norefferrer">GitHub</a>
+      </footer>
+
     </div>
   );
 }
